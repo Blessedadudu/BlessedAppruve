@@ -10,7 +10,7 @@ function App() {
       <Route exact path='/' component={Signin} />
       <Route path='/dashboard' component={Dashboard} />
     </div>
-  );
+  ); 
 }
 
 export default App;

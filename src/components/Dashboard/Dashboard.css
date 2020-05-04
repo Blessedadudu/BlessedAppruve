@@ -1,0 +1,162 @@
+.section-features {
+    padding: 10rem 4rem;
+    height: 10%;
+    background-image: linear-gradient(to right bottom, #258ea6, rgba(40, 180, 133, 0.8));
+    background-size: cover;
+    margin-top: -6rem; 
+}
+@media only screen and (max-width: 56.25em) {
+    .section-features {
+    padding: 10rem 0; 
+} 
+}
+
+h2 {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(100, 100, 100, 0.404);
+}
+
+
+.logOut {
+    position: absolute;
+    /* top: -rem; */
+    max-width: 100vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    display: inline-block;
+    border-radius: .4rem;
+    position: relative;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer; 
+    outline: none;
+    transition: all .2s linear;
+}
+
+.logOut:hover {
+    transform: translateY(-3px);
+}
+
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto; 
+}
+
+.row:not(:last-child) {
+    margin-bottom: 8rem; 
+}
+
+@media only screen and (max-width: 56.25em) {
+    .row:not(:last-child) {
+        margin-bottom: 6rem; 
+    }
+    
+}
+
+@media only screen and (max-width: 56.25em) {
+    .row {
+    max-width: 50rem;
+    padding: 0 3rem; 
+    } 
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.row [class^="col-"] {
+    float: left; 
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem; 
+}
+
+@media only screen and (max-width: 56.25em) {
+    .row [class^="col-"]:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 6rem; 
+    } 
+}
+
+@media only screen and (max-width: 56.25em) {
+    .row [class^="col-"] {
+        width: 100% !important; 
+    } 
+}
+
+.row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); 
+}
+
+
+.feature-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: transform .3s; 
+}
+@media only screen and (max-width: 56.25em) {
+    .feature-box {
+        padding: 2rem; 
+    } 
+}
+
+.feature-box:hover {
+    transform: translateY(-1rem) scale(1.03); 
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 1.5rem !important;
+}
+
+
+.btn, .btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer; 
+    outline: none;
+}
+
+.btn--green {
+    background-color: #258ea6;
+    color: #fff; 
+}
+    
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; 
+}
+
+
+
+    
